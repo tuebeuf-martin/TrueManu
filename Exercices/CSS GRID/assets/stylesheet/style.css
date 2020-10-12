@@ -1,0 +1,35 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
+    column-gap: 1em;
+    row-gap: 1em;
+    height: 500px
+    
+}
+.one{
+    background-color:rgb(170, 15, 15) ;
+}
+.two{
+    background-color: rgb(24, 178, 224);
+}
+.three{
+    background-color: rgb(54, 179, 116);
+}
+.four{
+    background-color:purple
+}
+.five{
+    background-color: orange;
+}
+.six{
+    background-color:royalblue;
+}
+.seven{
+    background-color: red;
+}
+.eight{
+    background-color: greenyellow;
+}
+.nine{
+    background-color: rgb(14, 14, 133)
+}
