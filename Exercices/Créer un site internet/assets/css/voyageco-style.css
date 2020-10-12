@@ -1,0 +1,90 @@
+body{
+    background-color: #90C9E7;
+}
+header{
+    background-image: url("../img/header.jpg");/*ajout de l'image de fond*/
+    background-size: cover;/*resimension de l'img pour qu'elle couvre la page*/
+    height:368px;/*on défini la hauteur du header, l'image s'adaptera*/
+    display: flex;/*Ici on défini le header en container flexible (VOIR FLEXBOX SUR CSS TRICKS)*/
+    justify-content: center;/*alignement horizontal (centré) des enfants du header*/
+    align-items: center;/*alignement vertical (centré) des enfants du header*/
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#listmenu{
+    list-style-type: none;/*enleve les puce(les points) de la liste*/
+    display: flex;
+    justify-content: space-around;/*Repartition uniforme dans la ligne*/
+    font-size:25px;
+    
+       
+}
+nav{
+    border-width: 4px;
+    border-style: outset;
+    background-color: burlywood;
+    
+}
+#navicon{
+    display:none;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: none;
+
+}
+.menu{
+    border-width:7px;
+    border-style: groove;
+    text-decoration-color: black;
+    
+}
+#presentation{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    border-width: 6px;
+    border-style: double;
+    background-color: wheat;
+    font-size: larger;
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+img{
+    height: 300px;
+    width: 300px;
+    border: 7px;
+    border-style: outset;
+    border-color: burlywood
+    
+}
+#blockline{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.block{
+    text-align: center;
+
+}
+p{
+    text-align: justify;
+    padding: 10px
+    
+}
+/*----------------------------------------MEDIE QUERIES--------------------------------------------------*/
+@media screen and (max-width:992px){
+    #blockline{
+        flex-direction: column; /*Ici j'ai écrit que en dessous d'une largeur d'ecran de 992px, le bloc sera aligné horizontalement et non pas verticalement*/
+    }
+}
+@media screen and (max-width:680px){
+    a, form, .menu{
+        display:none; /*Ici on masque les elements de la nav bar en dessous de 680px*/
+    }
+/*on affiche l'icone du menu-burger*/
+#navIcon{
+    display: block;
+    }
+}

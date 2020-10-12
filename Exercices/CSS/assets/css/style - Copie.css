@@ -1,0 +1,125 @@
+.boldtext {/*Quand une classe est défini, on utilise un . et on ecrit le nom de la classe*/
+    font-weight: bold;
+}
+
+.italictext {
+    font-style: italic;
+}
+.redtext {
+    color: red;
+}
+.greentext {
+    color:green;
+}
+#titletext {/*Quand un id est defini, on utilise un # et on ecrit le nom de la classe*/
+    text-align: center;
+}
+#arialfont {
+    font-family:Arial;/*Font-family défini la police d'écriture*/
+}
+.backcolor1 {
+    background-color: royalblue;
+}
+body {
+    background-image: url("../img/nitw.jpg");/*le chemin d'accés commence dans le dossier de la feuille de style,*
+    on ecrit ".." pour remonter dans les dossier*/
+    background-repeat:no-repeat; /*Ici je dit que l'image ne doit pas se repeter partout sur l'ecran*/
+    background-size:cover; /*Ici l'option cover permet d'accorder la taille de l'image avec les bordures de la page web*/
+    background-attachment: fixed; /*Ici, la photo ne bougera pas quand on scroll*/
+}
+
+#margintext { /*Le margin, c'est la marge exterieure. Ici, il y aura un ecartement de 10px sur la gauche, la droite, le haut, le bas.*/
+    margin: 10px; 
+}
+#paddingtext { /*Le padding, c'est la marge interieur. Ici, il y aura un ecartement de 10px sur la gauche, la droite, le haut, le bas */
+    background-color: royalblue;
+    padding :10px;
+}
+#greenblock {
+    background-color: lightgreen;
+    height :40px; /*Height défini la hauteur*/
+    width: 75%; /*Width défini la largeur*/
+    float: left;/*Float permet de sortir un élément du flux normal de la page et de le faire “flotter” contre un bord de son élément parent conteneur ou contre un autre élément flottant.*/
+}
+#blueblock {
+    background-color: royalblue;
+    height :40px;
+    width:25%;
+    float:left ;
+} 
+#redblock {
+    background-color: red;
+    height :80px;
+    width: 33.33%;
+    float: left
+}
+#darkorange {
+    background-color: rgb(221, 134, 20);
+    height: 40px;
+    width: 33.33%;
+    float: left
+}
+#grayblock{
+    background-color: rgb(63, 86, 94);
+    height: 40px;
+    width: 33.33%;
+    float: left
+}
+#orangeblock{
+    background-color: orange;
+    height: 40px;
+    width: 22.22%;
+    float: left;
+}
+#tealblock{
+    background-color: teal;
+    height: 40px;
+    width: 22.22%;
+    float: left;
+}
+#brown{
+    background-color: rgb(107, 44, 7);
+    height: 40px;
+    width: 22.22%;
+    float : left;
+}
+#darkgray{
+    background-color: rgb(3, 45, 94);
+    height: 120px;
+    width: 100%;
+    float :left
+}
+.formtitle1{
+    background-color: royalblue;
+    margin-left: 10px;
+     
+}
+#blueblock2{
+    background-color: royalblue;
+    height: 160px;
+    
+
+}
+#inputtext1{
+    margin-left: 30px;
+
+}
+.formtitle2{
+    background-color:purple ;
+    margin-left: 10px;
+}
+#purpleblock{
+    background-color:purple ;
+    height: 175px;
+}
+#inputtext2{
+    margin-left: 30px;
+}
+#pinkblock{
+    background-color: rgb(255, 4, 255);
+    height: 175px;
+}
+.formtitle3{
+    background-color:rgb(255, 0, 255);
+    margin-left: 10px
+}
