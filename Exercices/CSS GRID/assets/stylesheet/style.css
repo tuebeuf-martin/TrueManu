@@ -40,6 +40,7 @@
     grid-template-columns: repeat(4, 3fr);
     grid-template-rows: 5fr 1.5fr 3fr;
     grid-gap: 1rem;
+    object-fit: cover;
 
 }
 .one2{
@@ -76,3 +77,59 @@
     grid-column-end: 5;
 }
 /*--------------------------------------------------------------Exercice 3-----------------------------------------------------------------------------------------*/
+.grid3{
+    display: grid;
+    grid-template-columns: 3fr 6fr 4fr;
+    grid-template-rows: 50px 50px 50px;
+    background-color:pink;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    border-bottom: solid red;
+    vertical-align: middle;
+    font-size: large;
+    line-height: 50px;
+}
+.menu{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+    border-right: solid red;
+    font-size: large;
+    line-height: 100px;
+}
+.main{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    border-right: solid red;
+    border-bottom: solid red;
+    font-size: large;
+    line-height: 50px;
+}
+.right{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    border-bottom: solid red;
+    font-size: large;
+    line-height: 50px;
+}
+.footer{
+    grid-column-start:2 ;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: large;
+    line-height: 50px;
+}
+@media (min-width: 768px){
+    .grid3{
+        display:grid;
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: auto auto auto auto auto;
+    }
+}
