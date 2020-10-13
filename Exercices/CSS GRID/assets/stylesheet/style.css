@@ -140,10 +140,171 @@
     }
 }
 /*---------------------------------------------Exercice 4------------------------------------------------------------*/
-
+.calcback{
+    background-color: slategray;
+    padding-top: 100px;
+    margin-right: 1150px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+}
+.headtext{
+    margin-top: 50px
+}
+.headcalc{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+}
 .calculator{
     display:grid;
-    grid-template-columns: 200px 200px 200px 200px ;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-gap: 5px;
     
+}
+.percent{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+.ce{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.c{
+    background-color: darkgrey;
+text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.del{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.thingy{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.square{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.root{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.divide{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.calc7{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+
+}
+.calc8{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.calc9{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.multiply{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.calc4{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.calc5{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.calc6{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.minus{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.calc1{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.calc2{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.calc3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+}
+.plus{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.plusminus{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.calc0{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.comma{
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
+}
+.equal{
+    background-color: royalblue;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px
 }
