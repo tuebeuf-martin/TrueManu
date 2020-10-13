@@ -40,11 +40,9 @@
     grid-template-columns: repeat(4, 3fr);/*Ici c'est pareil que mettre "grid-template-columns: 3fr 3fr 3fr 3fr" ;*/
     grid-template-rows: 5fr 1.5fr 3fr;
     grid-gap: 10px;
-    object-fit: cover;
-
 }
 .one2{
-    background-color:rgb(170, 15, 15) ;
+    background-color:rgb(170, 15, 15);
 }
 .two2{
     background-color: rgb(24, 178, 224);
@@ -60,8 +58,8 @@
 }
 .six2{
     background-color:royalblue;
-    grid-column-start: 4;
-    grid-column-end: 5;
+    grid-column-start: 4; /*Ici je choisis quel colonne je veux que cette div commence (UNE COLONNE POSSEDE 2 LIGNES*/
+    grid-column-end: 5;/*Ici je choisis quel colonne je veux que cette div finisse*/
 }
 .seven2{
     background-color: red;
@@ -88,7 +86,6 @@
     grid-column-end: 5;
     text-align: center;
     border-bottom: solid red;
-    vertical-align: middle;
     font-size: large;
     line-height: 50px;
     border-bottom: solid red;
@@ -141,4 +138,12 @@
     .menu{
         border-bottom: solid red;
     }
+}
+/*---------------------------------------------Exercice 4------------------------------------------------------------*/
+
+.calculator{
+    display:grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: 100px 100px 100px 100px;
+    
 }
