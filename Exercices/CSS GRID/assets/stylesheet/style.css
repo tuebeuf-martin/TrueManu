@@ -1,9 +1,10 @@
 .grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(500px,1fr));
-    column-gap: 1em;
-    row-gap: 1em;
-    height: 500px
+    display: grid; /*Ici je défini la div "grid" en tant que containeur grid*/
+    grid-template-columns: 200px 200px 200px; /*Ici je défini le nombre de colomnes et leur largeur*/
+    column-gap: 1em; /*Je défini l'espace entre les colomne*/
+    row-gap: 1em;/*Je défini l'espace entre les lignes*/
+    height: 300px;
+    color: white;
     
 }
 .one{
@@ -33,3 +34,45 @@
 .nine{
     background-color: rgb(14, 14, 133)
 }
+/*------------------------------------------------------Exercice 2---------------------------------------------------------------------------------------------------------------*/
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    grid-template-rows: 5fr 1.5fr 3fr;
+    grid-gap: 1rem;
+
+}
+.one2{
+    background-color:rgb(170, 15, 15) ;
+}
+.two2{
+    background-color: rgb(24, 178, 224);
+}
+.three2{
+    background-color: rgb(54, 179, 116);
+}
+.four2{
+    background-color:purple
+}
+.five2{
+    background-color: orange;
+}
+.six2{
+    background-color:royalblue;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.seven2{
+    background-color: red;
+}
+.eight2{
+    background-color: greenyellow;
+    grid-column-start:2;
+    grid-column-start:3;
+}
+.nine2{
+    background-color: rgb(14, 14, 133);
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+/*--------------------------------------------------------------Exercice 3-----------------------------------------------------------------------------------------*/
