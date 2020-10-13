@@ -37,9 +37,9 @@
 /*------------------------------------------------------Exercice 2---------------------------------------------------------------------------------------------------------------*/
 .grid2{
     display: grid;
-    grid-template-columns: repeat(4, 3fr);
+    grid-template-columns: repeat(4, 3fr);/*Ici c'est pareil que mettre "grid-template-columns: 3fr 3fr 3fr 3fr" ;*/
     grid-template-rows: 5fr 1.5fr 3fr;
-    grid-gap: 1rem;
+    grid-gap: 10px;
     object-fit: cover;
 
 }
@@ -91,6 +91,7 @@
     vertical-align: middle;
     font-size: large;
     line-height: 50px;
+    border-bottom: solid red;
 }
 .menu{
     grid-column-start: 1;
@@ -126,10 +127,18 @@
     font-size: large;
     line-height: 50px;
 }
-@media (min-width: 768px){
+@media (max-width: 640px){
     .grid3{
-        display:grid;
-        grid-template-columns: 200px 1fr 200px;
-        grid-template-rows: auto auto auto auto auto;
+        display:flex;
+        flex-direction: column;
+    }
+    .menu{
+        border-right:0;
+    }
+    .main{
+        border-right:0;
+    }
+    .menu{
+        border-bottom: solid red;
     }
 }
